@@ -6,7 +6,7 @@ const Link = database.define('link', {
         type: Sequelize.INTEGER.UNSIGNED,
         autoIncrement: true, 
         allowNull: false,
-        PrimaryKey: true
+        primaryKey: true
     },
     code: {
         type: Sequelize.STRING,
